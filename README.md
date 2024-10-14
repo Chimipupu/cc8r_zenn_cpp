@@ -100,7 +100,7 @@ ADD R1, R2
 MV R4, R0
 MUL R3, R4
 HALT
-Register: [16, 5, 3, 2, 8, 0, 0, 0]
+Register: [16 5 3 2 8 0 0 0]
 Flag: 0x00
 SP: 0xF0
 PC: 0x13
