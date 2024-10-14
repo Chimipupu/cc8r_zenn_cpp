@@ -247,11 +247,13 @@ bool CC8R::execute(uint8_t instruction)
 
 void CC8R::display() const
 {
-    std::cout << "Registers: ";
+    std::cout << "Registers: [";
     for (uint8_t reg : registers)
     {
         std::cout << (int)reg << " ";
     }
+    std::cout << "]";
+
     std::cout << "\nFlags: 0x" << std::hex << (int)flags << std::dec
               << "\nSP: 0x" << std::hex << (int)sp << std::dec
               << "\nPC: 0x" << std::hex << (int)pc << std::dec << "\n";
